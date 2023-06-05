@@ -1,0 +1,45 @@
+:root {
+    --color-main: #0075FF;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Prioridad */
+.btn-main,
+.btn-main:hover,
+.btn-main-s,
+.btn-main-s:hover,
+.btn-sec,
+.btn-sec:hover,
+.btn-sec-s,
+.btn-sec-s:hover {
+    background-color: var(--color-main);
+    color: white;
+    padding: 0.25rem 1.5rem;
+    border-radius: 0.25rem;
+    border: solid 1px var(--color-main);
+}
+
+.btn-main:hover {
+    background-color: white;
+    color: var(--color-main);
+    border: solid 1px var(--color-main);
+}
+
+.btn-main-s {
+    font-size: 0.75rem;
+    padding: 0.1rem 1 rem;
+}
+
+.btn-sec {
+    color: #000;
+    background-color: transparent;
+    border: none;
+}
+
+.btn-sec {
+    color: #888;
+}
